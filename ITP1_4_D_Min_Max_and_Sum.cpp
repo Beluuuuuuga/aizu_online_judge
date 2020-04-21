@@ -5,7 +5,7 @@ using namespace std;
 
 int main(){
     int n;
-    int sum = 0;
+    long long sum = 0; // long long にしないとエラーが出る
     int max = -10000000;
     int min = 10000000;
     cin >> n;
