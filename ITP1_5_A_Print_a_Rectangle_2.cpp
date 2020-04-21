@@ -10,7 +10,7 @@ int main(){
             for (int j = 0; j < W; ++j){
                 cout << "#";
             }
-            cout << endl;
+            cout << endl; // これがないとエラーになる
         }
         std::cout << std::endl;
     }
